@@ -15,7 +15,7 @@ $(document).ready(function () {
     }
 
     alert(result);
-    if(cNum == 100) window.location.href = "https://www.youtube.com/channel/UCuiruhcezj_-4dgqYDlb9ow";
+    if(cNum == 50) window.location.href = "https://www.youtube.com/channel/UCuiruhcezj_-4dgqYDlb9ow";
     $(".answer").val("");
     refresh();
   });
