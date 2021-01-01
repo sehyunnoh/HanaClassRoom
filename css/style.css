@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 20% 5% 20% 5% 30% 20%;
+  grid-template-rows: 500px;
+}
+.title {
+  text-align: center;
+  color: aqua;
+  font-size: 3rem;
+}
+.nums {
+  background: green;
+  text-align: center;
+  font-size: 15rem;
+}
+.sign {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 2rem;
+}
+.answer {
+  height: 400px;
+  width: 80%;
+  font-size: 8rem;
+}
+
+.submit {
+  background: yellow;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 150px;
+}
