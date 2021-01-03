@@ -15,7 +15,7 @@ debugger;
     }
 
     alert(result);
-    if(cNum == 50) window.location.href = "https://www.youtube.com/channel/UCuiruhcezj_-4dgqYDlb9ow";
+    if(cNum == 50) window.location.href = "https://www.youtube.com/channel/UCdet8uJfTFlACtY05BQmJ1Q";
     $(".answer").val("");
     refresh();
   });
