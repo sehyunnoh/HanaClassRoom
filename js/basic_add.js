@@ -2,12 +2,12 @@ let fNum, sNum, answer, cNum = 0;
 
 $(document).ready(function () {
   refresh();
-debugger;
-  $(".answer").change((e) => (answer = +e.target.value));
+
+  $("input[type='number']").change((e) => (answer = e.target.value));
   $(".submit").click(() => {
     let result;
 
-    if( fNum + answer == sNum ){
+    if( fNum + sNum == answer ){
         result = "correct";
         cNum++;
     }else{
@@ -23,7 +23,7 @@ debugger;
 
 const refresh = () => {
   fNum = ~~(Math.random() * 10);
-  sNum = ~~(Math.random() * 10)+10;
+  sNum = ~~(Math.random() * 10);
   $(".fNum").html(fNum);
   $(".sNum").html(sNum);
   $('.count').html(cNum);
