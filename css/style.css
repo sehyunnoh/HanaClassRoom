@@ -21,6 +21,7 @@
 }
 .answer {
   height: 200px;
+  width: 10px;
   width: 80%;
   font-size: 8rem;
 }

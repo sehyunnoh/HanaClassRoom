@@ -2,7 +2,6 @@ let fNum, sNum, answer, cNum = 0;
 
 $(document).ready(function () {
   refresh();
-debugger;
   $(".answer").change((e) => (answer = +e.target.value));
   $(".submit").click(() => {
     let result;
